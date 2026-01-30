@@ -20,6 +20,7 @@ System.out.println("Short integer is: " +s );
 System.out.println("Long integer is: " +l );
 
 
+scan.close();
 
 	}
 }
