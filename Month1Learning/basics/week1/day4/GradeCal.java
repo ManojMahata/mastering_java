@@ -14,11 +14,17 @@ double marks = scan.nextDouble();
 
 double grade = (marks/fullMarks)*100;
 
-System.out.print("Grade you got is: "+ grade+"\n");
+System.out.print("Toal percentage you got: "+ grade+"\n");
 
 // now if else if statement to give student grade
-
+if (grade < 40){
+    // if marks are under 40% then it fail.
+    System.out.print("You failed paul.");
+}else{
+    System.out.print("You passed paul.\n");
+}
 
 scan.close();
     }
+    
 }
