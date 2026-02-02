@@ -23,21 +23,18 @@ public class dayToname{
 
         do{
 
-            System.out.print("Enter 8 to exit the program.");
+            System.out.print("Enter number kid (1-7) or 8 to exit the program: ");
             number = scan.nextInt();
 
             if (number == 8) {
-                System.out.print("You choosed to exti the program kid.\n");
+                System.out.print("You choose to exit the program kid byee!\n");
 		      break; // breaks the loop 
                 }
 
-            if (number < 1 || number > 8 ) {
-                System.out.println("Invalid choise.");
+            if (number < 1 || number > 7 ) {
+                System.out.println("Invalid choice.\n");
                 continue; // skips the other loops and starts from top
             }
-
-            System.out.print("Enter number kid: ");
-            number = scan.nextInt();
 
             
             boolean validDay = true;
@@ -48,10 +45,29 @@ public class dayToname{
 
                     case 1: result = "Sunday";
                         break;
+
+                    case 2: result = "Monday";
+                        break;
+
+                    case 3: result = "Tuesday";
+                        break;
+
+                    case 4: result = "Wednesday";
+                        break;
+
+                    case 5: result = "Thursday";
+                        break;
+
+                    case 6: result = "Friday";
+                        break;
+
+                    case 7: result = "Saturday";
+                        break;
+
             }
 
             if (validDay) {
-                System.out.print(number+ " is: "+result);
+                System.out.print(number+ " is: "+result+"\n");
             }
 
         } while (number != 8);
