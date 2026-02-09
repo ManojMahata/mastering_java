@@ -15,6 +15,6 @@ public class If {
         }
         
 
-
+        scan.close();
     }
 }
