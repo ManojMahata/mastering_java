@@ -26,27 +26,45 @@ public class primeNumber {
         } */
 
 
-System.out.print("Number you want to check : ");
+// System.out.print("Number you want to check : ");
+// int number = scan.nextInt();
+
+// boolean isPrime = true;
+
+// for ( int i = 2; i < number; i++) {
+//     if (number%i == 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
+
+// if (isPrime && number > 1) {
+    
+//     System.out.println(number + " is prime");
+// }
+// else {
+//     System.out.println(number + " isn't prime");
+// }
+
+
+
+System.out.print("Enter the number you want to check : ");
 int number = scan.nextInt();
 
 boolean isPrime = true;
 
-for ( int i = 2; i < number; i++) {
-    if (number%i == 0) {
+for ( int a = 2; a < number; a++) {
+    if ( number % a == 0 ) {
         isPrime = false;
         break;
     }
 }
 
-if (isPrime && number > 1) {
-    
-    System.out.println(number + " is prime");
+if ( isPrime && number > 1) {
+    System.out.println(number + " is prime number.");
+} else {
+    System.out.println(number + " is not prime number.");
 }
-else {
-    System.out.println(number + " isn't prime");
-}
-
-
 
         scan.close();
     }
