@@ -72,7 +72,7 @@ do {
                             System.out.print("Enter the amount you want to deposite : ");
                             int deposite = scan.nextInt();
 
-                            if (deposite < 0 && deposite == 0) {
+                            if (deposite <= 0) {
                                 System.out.println("Can't deposite 0 or negative amount of money.");
                             } else{
                                 bankBalance += deposite;
