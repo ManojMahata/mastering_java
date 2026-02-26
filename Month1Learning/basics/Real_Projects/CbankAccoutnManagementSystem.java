@@ -1,11 +1,6 @@
 import java.util.*;
-import java.util.function.DoubleToIntFunction;
-
-public class CbankAccoutnManagementSystem {
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
         // accoutn details 
         String accountHolder = "manoj";
         String accountNumber = "12345";
@@ -40,15 +35,12 @@ public class CbankAccoutnManagementSystem {
         }
 
         // if all 3 attempts failed, lock and exit
-
         if (!loggedIn) {
             System.out.println("Account locked after 3 failed attempts. Goodbye!");
             scan.close();
             return;
         }
-
         // main menu loop (do-while - runs at least once)
-
         do {
             System.out.println("\n--- Menu ---");
             System.out.println("1. Check Balance");
