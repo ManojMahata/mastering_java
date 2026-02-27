@@ -11,7 +11,7 @@ public class ElectricityBillCalculator {
 		// variables =>
 		double consumedUnits;
 		int choice = 0;
-		double bill = 0.0;
+		// double bill = 0.0;
 		do {
 			System.out.println("Enter 1 to enter into program. " + "\nEnter 2 exit.");
 			System.out.print("Enter: ");
