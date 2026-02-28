@@ -43,5 +43,31 @@ public class feb{
 
 		car2.displayInfo();
 		car2.accelerate();
+
+/*
+			Car car1 = new Car();
+			Car car2 = car1;
+			car2.brand = "BMW";
+			System.out.println(car1.brand); // What prints here?
+
+			prints error because we already created car1 and car2 earlier in this method
+			we can't create them again with same names;
+
+			Car car1 = new Car();
+			Car car2 = new Car();
+
+	Car car1 = new Car();   // ❌ second declaration
+			Car car2 = car1; // ❌ second declaration
+
+
+*/
+
+		// fixed varsion...
+		car2 = car1;
+		car2.brand = "BMW";
+		car2.color = "pink";
+		System.out.println(car1.brand + " " + car1.color);
+
+
 	}
 }
