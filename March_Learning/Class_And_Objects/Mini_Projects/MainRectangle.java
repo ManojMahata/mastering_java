@@ -1,9 +1,9 @@
 
 class retangleClass {
 	// attributes
-	double length = 0;
-	double width = 0;
-	double areaOfrectangle = 0;
+	double length;
+	double width;
+	double areaOfrectangle;
 	// method co calculate length and width
 	void calcualteLeghtWidth(){
 		areaOfrectangle = length*width;
@@ -21,7 +21,7 @@ public class MainRectangle {
 	public static void main(String[] args) {
 		retangleClass r1 = new retangleClass();
 
-		r1.length = 10;
+		r1.length = 11;
 		r1.width = 10;
 
 		r1.calcualteLeghtWidth();
