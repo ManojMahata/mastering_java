@@ -9,7 +9,7 @@ class bankClass {
 	}
 	// method to display info stored in our constructor
 	void displayInfo(){
-		System.out.println("Account Number: " + accountNumber);
+		System.out.print("Account Number: " + accountNumber);
 		System.out.println("Balance: " + balance);
 	}
 }
