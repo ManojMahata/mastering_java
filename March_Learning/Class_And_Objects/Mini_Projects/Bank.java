@@ -8,6 +8,7 @@ class BankSystemClass {
 	void depositeMethod (double amount) {
 		if (amount > 0){
 			balance += amount;
+			System.out.println("\n");
 			System.out.println("Deposite: " + amount);
 		} else {
 			System.out.println("Invalid deposite amount.");
@@ -27,6 +28,7 @@ class BankSystemClass {
 	void displayInfoMethod() {
 		System.out.println("Account Number: " + accountNumber);
 		System.out.println("Current balance: " + balance);
+		System.out.println("");
 	}
 }
 
@@ -48,6 +50,8 @@ public class Bank {
 
 		b2.depositeMethod(1);
 		b2.withdrawMethod(50);
+
+
 
 		b2.displayInfoMethod();
 	}
