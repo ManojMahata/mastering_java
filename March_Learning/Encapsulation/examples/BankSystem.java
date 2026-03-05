@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class BankAccount{
 	// attributes in private
 	private double balance;
@@ -30,10 +32,18 @@ class BankAccount{
 public class BankSystem {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
 		BankAccount b1 = new BankAccount();
-		b1.deposite(500);
-		System.out.println("Balance after deposite: " + b1.getBalance());
-		b1.withdraw(400);
+		System.out.print("Enter Deposite Amount: ");
+		double depositeAmount = scan.nextDouble();
+		b1.deposite(depositeAmount);
+		System.out.println("Balance Balance after deposite: " + b1.getBalance());
+
+		System.out.print("Enter Withdraw Amount: ");
+		double withdrawAmount = scan.nextDouble();
+		b1.withdraw(withdrawAmount);
 		System.out.println("Balance after withdraw: " + b1.getBalance());
+		scan.close();
 	}
 }
