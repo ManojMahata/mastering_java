@@ -1,7 +1,7 @@
 class Student {
 	// attributes
-	String name = "Manoj";
-	int age = 21;
+	String name = "";
+	int age;
 
 	// behavior or method
 	void showInfo(){
