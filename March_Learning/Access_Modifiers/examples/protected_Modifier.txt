@@ -1,0 +1,4 @@
+private = accessed only class
+public = accessed from anywhere
+default = wheb we don't mention the access modifier type then Java set it to default. Which can be accessd in same pakage and sub classe;
+protected = accessed in same package and child classes
