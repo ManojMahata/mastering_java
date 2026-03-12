@@ -1,0 +1,4 @@
+What is inheritance in Java?
+ans: one class acquires the properties and behaviour of another class.
+Here existing class is called the Parent (Superclass).
+the new one is called the child subclass.
