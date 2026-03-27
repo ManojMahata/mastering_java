@@ -20,5 +20,6 @@ public class multipleInterfaces{
         DemoClass dc = new DemoClass();
         dc.myMethod();
         dc.myOtherMethod();
+
     }
 }
