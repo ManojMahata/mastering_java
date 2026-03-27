@@ -1,0 +1,3 @@
+Arrays are used to store multiple values in a single variables, instead of declaring separate variables for each values.
+
+To declare an arry, define the variable type with square brackets []:
