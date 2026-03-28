@@ -26,8 +26,5 @@ public class OperationInArrayElements {
 		int a[] = new int[50];
 		int c = a.length;
 		System.out.println(c);
-
-
-		// Array of Objects in Java
 	}
 }
